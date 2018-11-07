@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: user-edge-service
+server:
+  port: 9702
+thrift:
+  server:
+    user:
+      ip: localhost
+      port: 9701
